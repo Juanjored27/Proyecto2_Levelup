@@ -1,0 +1,2 @@
+# Ejemplo de tarea cron: backup diario a las 02:00
+0 2 * * * /ruta/al/proyecto/scripts/backup_mysql.sh >> /ruta/al/proyecto/logs/backup.log 2>&1
